@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.form-group {
+  padding: 0 0 20px 16px;
+}
+
+.input-invalid {
+  border: 2px solid red;
+}
+
+.invalid-msg {
+  color: red;
+}
