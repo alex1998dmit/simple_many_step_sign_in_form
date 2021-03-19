@@ -4,7 +4,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import cn from "classnames";
 
 const Schema = yup.object().shape({
-  email: yup.string().email("Enter valid email please")
+  email: yup.string().required().email("Enter valid email please")
 });
 
 const EmailStep = (props) => {
